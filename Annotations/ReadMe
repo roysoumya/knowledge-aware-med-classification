@@ -1,0 +1,1 @@
+This directory contains the annotated datapoints across the five classes as mentioned in study along with the train/test split. The codes to ML classification models and DL models are also present. The 'text' directory conatins the text present in the files annotated.
