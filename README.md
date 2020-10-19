@@ -3,12 +3,6 @@ Contains the codebase for our paper **Developing Knowledge-aware Neural Models f
 
 ![Proposed Knowledge-aware BERT model](Bert_plus_med.png)
 
-
-### Setting up the environment
-1. Mention the requirements.txt file and instructions to form the virtual environment
-
-2. How to train and test the deep learning models. If possible, provide a table with results as well as total running time. Also mention the GPU architecture details.
-
 ### Running Bert-plus models
 
 The code files in the form of self-contained Jupyter notebooks is available at: "src/ProposedKnowledgeAwareModel/"
