@@ -3,8 +3,6 @@ Contains the codebase for our paper **Developing Knowledge-aware Neural Models f
 
 ![Proposed Knowledge-aware BERT model](Bert_plus_med.png)
 
-### Directory structure
-Please mention the directory structure details
 
 ### Setting up the environment
 1. Mention the requirements.txt file and instructions to form the virtual environment
@@ -13,7 +11,7 @@ Please mention the directory structure details
 
 ### Running Bert-plus models
 
-Provide step-by-step instruction on how to run our proposed Bert-plus models.
+The code files in the form of self-contained Jupyter notebooks is available at: "src/ProposedKnowledgeAwareModel/"
 
 ### Experiments and Results
 The BERT and MedBERT models were trained and evaluated on three datasets: CADEC, ICHI and OSHUMED( Datasets provided in the data directory). The accuracy scores of the baseline models and our proposed models on ICHI dataset were compared. The accuracy of the TextGCN model was 0.68 which was less than that of the BERT model(0.695) and the MedBERT model(0.706). <br/>
