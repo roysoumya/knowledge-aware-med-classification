@@ -6,7 +6,6 @@ This directory contains all the code files. The LIME and SHAP exists as a large 
 
 ### Directory Structure
 
-Please explain the directory structure<br/>
 The directory structure is as follows:
 * Text Classification: This directory consists of the codes used for Medical Text Classification. They were trained using the train set and evaluated using the test set provided in the data directory. It is splitted into the following three directories for comfort in understanding the usage of the codes:
   * BERT Models: It consists the codes of BERT, BERT plus Med and the McNemar's test on the BERT model.
