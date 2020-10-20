@@ -1,4 +1,4 @@
-# interpretable-medical-text-classification
+# knowledge-aware-med-classification
 Contains the codebase for our paper **Developing Knowledge-aware Neural Models for Medical Forum Question Classification** that is submitted to the "Web Conference 2021".
 
 ![Proposed Knowledge-aware BERT model](Bert_plus_med.png)
