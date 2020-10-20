@@ -1,0 +1,5 @@
+This directory contains the annotated datapoints across the five classes [UPD, RS, MAS, DM, and IS] as mentioned in study along with the train/test split. The codes to ML classification models and DL models are also present.
+
+The folder text contins the text of the  file id's that were annotated. 
+
+
