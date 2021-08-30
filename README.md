@@ -1,7 +1,7 @@
 # knowledge-aware-med-classification
 Contains the codebase for our paper **Knowledge-Aware Neural Networks for Medical Forum Question Classification** that is accepted for publication at the 30th ACM International Conference on Information and Knowledge Management [CIKM 2021](https://www.cikm2021.org/)
 
-![Proposed Knowledge-aware BERT model](canvas.png)
+![Proposed Knowledge-aware BERT model](medbert-ichi.png)
 
 ### Running Bert-plus models
 
