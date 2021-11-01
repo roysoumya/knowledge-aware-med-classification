@@ -10,7 +10,7 @@ The codebase is based on huggingface transformers Github [codebase](https://gith
 The code files in the form of self-contained Jupyter notebooks is available at: **src/ProposedKnowledgeAwareModel/**
 
 ### Experiments and Results
-The BERT and MedBERT models were trained and evaluated on three datasets: CADEC and ICHI (Datasets provided in the data directory). 
+The BERT and MedBERT models were trained and evaluated on two datasets: CADEC (multi-label) and ICHI (multi-class) (Datasets provided in the data directory). 
 
 ### Annotated CADEC dataset
 We annotate CADEC as a multi-label multi-class dataset, for the task of "Medical Forum Question Classification". Each data point is annotated by 0 and 1, across five information need categories. We also have an additional column, containing the extracted medical concepts using QuickUMLS tool. The annotated files can be found at **CADEC-Annotations/**
