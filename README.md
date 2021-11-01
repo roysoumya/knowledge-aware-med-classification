@@ -1,5 +1,5 @@
 # knowledge-aware-med-classification
-Contains the codebase for our paper **Knowledge-Aware Neural Networks for Medical Forum Question Classification** that is accepted for publication at the 30th ACM International Conference on Information and Knowledge Management [CIKM 2021](https://www.cikm2021.org/) [arXiv](https://arxiv.org/abs/2109.13141) , [DOI](https://dl.acm.org/doi/10.1145/3459637.3482128)
+Contains the codebase for our paper **Knowledge-Aware Neural Networks for Medical Forum Question Classification** that is accepted for publication at the 30th ACM International Conference on Information and Knowledge Management (CIKM 2021) [arXiv](https://arxiv.org/abs/2109.13141), [DOI](https://dl.acm.org/doi/10.1145/3459637.3482128)
 
 The codebase is based on huggingface transformers Github [codebase](https://github.com/huggingface/transformers).
 
