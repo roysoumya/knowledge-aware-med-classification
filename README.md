@@ -1,7 +1,7 @@
 # knowledge-aware-med-classification
 Contains the codebase for our paper **Knowledge-Aware Neural Networks for Medical Forum Question Classification** that is accepted for publication at the 30th ACM International Conference on Information and Knowledge Management (CIKM 2021) [arXiv](https://arxiv.org/abs/2109.13141), [DOI](https://dl.acm.org/doi/10.1145/3459637.3482128)
 
-The codebase is based on huggingface transformers [Github codebase](https://github.com/huggingface/transformers). The lcf_ichi and lcf-associated codes is based on ABSA-Pytorch [Github codebase](https://github.com/songyouwei/ABSA-PyTorch/blob/master/models/lcf_bert.py)
+The codebase is based on huggingface transformers [Github codebase](https://github.com/huggingface/transformers). The LCF-BERT and LCF-associated codes is based on ABSA-Pytorch [Github codebase](https://github.com/songyouwei/ABSA-PyTorch/blob/master/models/lcf_bert.py)
 
 ![Proposed Knowledge-aware BERT model](medbert-ichi.png)
 
@@ -21,7 +21,7 @@ The BERT and MedBERT models were trained and evaluated on two datasets: CADEC (m
 We annotate CADEC as a multi-label multi-class dataset, for the task of "Medical Forum Question Classification". Each data point is annotated by 0 and 1, across five information need categories. We also have an additional column, containing the extracted medical concepts using QuickUMLS tool. The annotated files can be found at **CADEC-Annotations/**
 
 ### ICHI, a multi-class medical forum question classification dataset
-We obtain the ICHI data from rakshajalan/ECIR-2018 [Github codebase](https://github.com/rakshajalan/ECIR-2018/tree/master/ECIR-18_medical_question_classification/Dataset), and keep the same train-test data split.
+We obtain the ICHI data from rakshajalan/ECIR-2018 [Github codebase](https://github.com/rakshajalan/ECIR-2018/tree/master/ECIR-18_medical_question_classification/Dataset), and maintain the same train-test data split.
 
 ## Citing MedBERT
 If you use the labeled CADEC dataset or use MedBERT model, please cite the paper: 
