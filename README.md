@@ -1,7 +1,7 @@
 # knowledge-aware-med-classification
 Contains the codebase for our paper **Knowledge-Aware Neural Networks for Medical Forum Question Classification** that is accepted for publication at the 30th ACM International Conference on Information and Knowledge Management (CIKM 2021) [arXiv](https://arxiv.org/abs/2109.13141), [DOI](https://dl.acm.org/doi/10.1145/3459637.3482128)
 
-The codebase is based on huggingface transformers Github [codebase](https://github.com/huggingface/transformers).
+The codebase is based on huggingface transformers Github [codebase](https://github.com/huggingface/transformers). The lcf_ichi and lcf-associated codes is based on ABSA-Pytorch [Github codebase](https://github.com/songyouwei/ABSA-PyTorch/blob/master/models/lcf_bert.py)
 
 ![Proposed Knowledge-aware BERT model](medbert-ichi.png)
 
@@ -15,6 +15,33 @@ The BERT and MedBERT models were trained and evaluated on two datasets: CADEC (m
 ### Annotated CADEC dataset
 We annotate CADEC as a multi-label multi-class dataset, for the task of "Medical Forum Question Classification". Each data point is annotated by 0 and 1, across five information need categories. We also have an additional column, containing the extracted medical concepts using QuickUMLS tool. The annotated files can be found at **CADEC-Annotations/**
 
+If you use the labeled CADEC dataset or use MedBERT model, please cite the paper: 
 
-
-
+```
+@inproceedings{10.1145/3459637.3482128,
+author = {Roy, Soumyadeep and Chakraborty, Sudip and Mandal, Aishik and Balde, Gunjan and Sharma, Prakhar and Natarajan, Anandhavelu and Khosla, Megha and Sural, Shamik and Ganguly, Niloy},
+title = {Knowledge-Aware Neural Networks for Medical Forum Question Classification},
+year = {2021},
+isbn = {9781450384469},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3459637.3482128},
+doi = {10.1145/3459637.3482128},
+abstract = {Online medical forums have become a predominant platform for answering health-related
+information needs of consumers. However, with a significant rise in the number of
+queries and the limited availability of experts, it is necessary to automatically
+classify medical queries based on a consumer's intention, so that these questions
+may be directed to the right set of medical experts. Here, we develop a novel medical
+knowledge-aware BERT-based model (MedBERT) that explicitly gives more weightage to
+medical concept-bearing words, and utilize domain-specific side information obtained
+from a popular medical knowledge base. We also contribute a multi-label dataset for
+the Medical Forum Question Classification (MFQC) task. MedBERT achieves state-of-the-art
+performance on two benchmark datasets and performs very well in low resource settings.},
+booktitle = {Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management},
+pages = {3398–3402},
+numpages = {5},
+keywords = {online health communities, clinical text classification},
+location = {Virtual Event, Queensland, Australia},
+series = {CIKM '21}
+}
+```
