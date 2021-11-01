@@ -8,6 +8,11 @@ The codebase is based on huggingface transformers [Github codebase](https://gith
 ### Running Bert-plus models
 
 The code files in the form of self-contained Jupyter notebooks is available at: **src/ProposedKnowledgeAwareModel/**
+Please go through the notebook, which produces at the end a 'run_ichi.py'. 
+
+```
+python ./examples/ichi/run_ichi.py --model_type bert --model_name_or_path bert-base-uncased --do_lower_case --do_train --do_eval --data_dir ./data/ichi_dataset --max_seq_length 256 --per_gpu_eval_batch_size=16 --per_gpu_train_batch_size=16 --learning_rate 1e-4 --num_train_epochs 2 --output_dir ./tmp/ichi_bert_base_new --overwrite_output_dir
+```
 
 ### Experiments and Results
 The BERT and MedBERT models were trained and evaluated on two datasets: CADEC (multi-label) and ICHI (multi-class) (Datasets provided in the data directory). 
