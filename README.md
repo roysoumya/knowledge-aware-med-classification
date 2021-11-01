@@ -12,9 +12,13 @@ The code files in the form of self-contained Jupyter notebooks is available at: 
 ### Experiments and Results
 The BERT and MedBERT models were trained and evaluated on two datasets: CADEC (multi-label) and ICHI (multi-class) (Datasets provided in the data directory). 
 
-### Annotated CADEC dataset
+### Annotated CADEC, a multi-label medical forum question classificaton dataset
 We annotate CADEC as a multi-label multi-class dataset, for the task of "Medical Forum Question Classification". Each data point is annotated by 0 and 1, across five information need categories. We also have an additional column, containing the extracted medical concepts using QuickUMLS tool. The annotated files can be found at **CADEC-Annotations/**
 
+### ICHI, a multi-class medical forum question classification dataset
+We obtain the ICHI data from rakshajalan/ECIR-2018 [Github codebase](https://github.com/rakshajalan/ECIR-2018/tree/master/ECIR-18_medical_question_classification/Dataset), and keep the same train-test data split.
+
+## Citing MedBERT
 If you use the labeled CADEC dataset or use MedBERT model, please cite the paper: 
 
 ```
